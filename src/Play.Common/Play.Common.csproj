@@ -5,6 +5,7 @@
     <Version>1.0.5</Version>
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageDescription>Common libraries used by Play Economy services.</PackageDescription>
   </PropertyGroup>
 
   <ItemGroup>
