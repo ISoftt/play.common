@@ -3,7 +3,7 @@ Common library used by Play Economy services.
 
 ## Create and publish package
 ```powershell
-$version="1.0.5"
+$version="1.0.6"
 $owner="ISoftt"
 $github_personal_access_token="specify here"
 
