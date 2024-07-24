@@ -2,20 +2,18 @@ namespace Play.Common.Settings
 {
     public class MongoDbSettings
     {
-        private string _connectionString;
+        private string connectionString;
 
         public string Host { get; init; }
 
         public int Port { get; init; }
 
-        //public string ConnectionString => $"mongodb://{Host}:{Port}";
-        
-        public string ConnectionString 
+        public string ConnectionString
         {
-            get { return string.IsNullOrWhiteSpace(_connectionString) ?
-                 $"mongodb://{Host}:{Port}" :
-                 _connectionString; }
-            init { _connectionString = value; } 
+            get { return string.IsNullOrWhiteSpace(connectionString) 
+                    ? $"mongodb://{Host}:{Port}" : connectionString; }
+            init { connectionString = value; }
         }
+
     }
 }
